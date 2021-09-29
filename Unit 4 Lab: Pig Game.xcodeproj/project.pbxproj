@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1D06B11A27035302008C18A2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D06B11927035302008C18A2 /* main.cpp */; };
+		1D06B1222703531E008C18A2 /* PigPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D06B1202703531E008C18A2 /* PigPlayer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		1D06B11627035302008C18A2 /* Unit 4 Lab: Pig Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Unit 4 Lab: Pig Game"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D06B11927035302008C18A2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1D06B1202703531E008C18A2 /* PigPlayer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PigPlayer.cpp; sourceTree = "<group>"; };
+		1D06B1212703531E008C18A2 /* PigPlayer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PigPlayer.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				1D06B11927035302008C18A2 /* main.cpp */,
+				1D06B1202703531E008C18A2 /* PigPlayer.cpp */,
+				1D06B1212703531E008C18A2 /* PigPlayer.hpp */,
 			);
 			path = "Unit 4 Lab: Pig Game";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D06B11A27035302008C18A2 /* main.cpp in Sources */,
+				1D06B1222703531E008C18A2 /* PigPlayer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
